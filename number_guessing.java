@@ -1,3 +1,4 @@
+//Number Guessing game
 import java.util.Random;
 import java.util.Scanner;
 public class number_guessing {
@@ -5,6 +6,7 @@ public class number_guessing {
         Random rand=new Random();
         int Guess=rand.nextInt(100);
 //        System.out.println("Hint : "+Guess);
+        System.out.println("Welcome to the Number Guessing Game");
         Scanner sc=new Scanner(System.in);
         int user;
         int numguess=1;
